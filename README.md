@@ -1,6 +1,6 @@
 Welcome to the tennis ping pong workshop!
 
-The goal is to tackle a coding kata: [Tennis](https://codingdojo.org/kata/Tennis/) (description in KATA.md)
+The goal is to tackle a version of the Tennis coding kata: (description in KATA.md)
 
 We will be doing it using a pairing technique called Ping Pong.
 
