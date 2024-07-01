@@ -6,7 +6,7 @@ This Kata is about implementing a simplified version of a tennis game.
 
 The scoring system is as follows:
 
-1. Each player can have either of these points in one game “love” “15” “30” “40”
+1. Each player can have either of these points in one game “love (L)” “15” “30” “40”
 2. If you have 40 and you win the point you win the game, however there are special rules.
 3. If both have 40 the players are “deuce”.
 4. If the game is in deuce, the winner of a point will have advantage
@@ -16,8 +16,8 @@ The scoring system is as follows:
 So for example, for two players, Alice and Bob, a game might look like this
 A | B
 -----
-0 | 0
-15| 0
+L | L
+15| L
 15| 15
 15| 30
 15| 40
