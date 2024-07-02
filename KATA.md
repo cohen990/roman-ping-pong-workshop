@@ -1,38 +1,34 @@
-# Tennis
+# Roman Numerals Kata
 
-## About this Kata
+This Kata is about implementing a converter that takes arabic numerals and converts them to roman numerals.
 
-This Kata is about implementing a simplified version of a tennis game. 
+Arabic numerals: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Roman numerals: I, V, X, L, C, D, M
 
-The scoring system is as follows:
+In case you aren't familiar, here's some examples.
 
-1. Each player can have either of these points in one game “love (L)” “15” “30” “40”
-2. If you have 40 and you win the point you win the game, however there are special rules.
-3. If both have 40 the players are “deuce”.
-4. If the game is in deuce, the winner of a point will have advantage
-5. If the player with advantage wins another point, they win the game
-6. If the player without advantage wins, they are back at deuce.
+- 1: I
+- 2: II
+- 3: III
+- 4: IV
+- 5: V
+- 6: VI
+- 7: VII
+- 8: VIII
+- 9: IX
+- 10: X
+- 40: XL
+- 50: L
+- 90: XC
+- 100: X
+- 400: CD
+- 500: D
+- 900: CM
+- 1000: M
+- 2024: MMXXIV (M + M = 2000, X + X = 20, IV = 4 => 2024)
+- 1990: MCMXC (M = 1000, CM = 900, XC = 90 => 1000 + 900 + 90 = 1990)
 
-A game is described by an array of 1s and 2s where 1 indicates that player 1 scored a point, and 2 indicates that player 2 scored a point.
+The roman numbering system doesn't really support anything larger than 3999, so neither should your implementation.
 
-So for example, the following array describes a game where player 1 wins:
-
-[1, 2, 2, 2, 1, 1, 2, 1, 1, 1, 1]
-
-The scorecard for that game looked like this:
-
-A | B
------
-L | L
-15| L 
-15| 15
-15| 30
-15| 40
-30| 40
-40| 40
-40| A
-40| 40
-A | 40
-W | 40
-
-Build a system that can consume a game array and return a scorecard.
+## The Task
+Build a system that can recieve arabic numerals as input (1234) and return the roman numerals string as an output (MCCXXIV)
